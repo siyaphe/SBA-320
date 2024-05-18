@@ -3,7 +3,7 @@
     justify-content: space-between;
     background-color: rgba(204, 255, 51, 0.5) ;
     color:tomato;
-    height: 60px;
+    height: 10vw;
     padding: 20px;
     border-width:.1px;
     border:solid aliceblue;
@@ -157,4 +157,23 @@
   }
   .recipe a{
     display: block;
+  }
+
+  .clr-button {
+    background-color: rgba(100, 87, 87, 0.801);
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 20px; 
+    border-radius: 8px; 
+    cursor: none; 
+  }
+  
+  .clr-button:disabled {
+    background-color: rgb(117, 113, 113);
+    color: gray;
+  }
+  .styled-h1{
+    line-height: 2;
+  text-align: center;
   }

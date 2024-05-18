@@ -29,8 +29,8 @@ export default function Meals() {
   return (
     <div className='main'>
       <div className='heading'>
-        <h1>Search Your Food Recipe</h1>
-        <h4>This is my food</h4>
+        <h1>Discover Delicious Recipes</h1>
+        <h4>Explore a World of Culinary Delights</h4>
       </div>
       <div className='searchBox'>
         <input 
